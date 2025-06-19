@@ -11,7 +11,7 @@ export default function Nav() {
   return (
     <nav className="bg-white p-5 shadow flex items-center justify-between relative">
         {/* LOGO */}
-        <div className=" text-xl text-orange-800"><span>😎 Horizontal</span></div>
+        <div className=" text-xl text-orange-800">SlidingMenu</div>
         
             <ul className={`text-black flex flex-col md:flex-row space-y-5 md:space-y-0 md:space-x-4
              absolute top-[70px] p-4 left-0 bg-white w-full md:static shadow md:shadow-none rounded-b-xl md:w-auto md:opacity-100   duration-300 ease-in-out ${show ? 'opacity-100 z-10 pointer-events-auto': 'opacity-0 z-[-1] pointer-events-none'}  md:opacity-100 md:z-auto md:pointer-events-auto`}>
