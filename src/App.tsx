@@ -1,6 +1,7 @@
 
 // import Nav from './Nav'
-import SlidingMenu from './SlidingMenu'
+// import SlidingMenu from './SlidingMenu'
+import VerticleMenu from './VerticleMenu'
 
 function App() {
   
@@ -8,7 +9,8 @@ function App() {
   return (
     <>
      {/* <Nav /> */}
-     <SlidingMenu />
+     {/* <SlidingMenu /> */}
+     <VerticleMenu />
     </>
   )
 }
