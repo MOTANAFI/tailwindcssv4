@@ -31,6 +31,22 @@ function VerticleMenu() {
           <div className="border-b border-cyan-100/50 my-5 w-10/12"></div>
 
           {/* Menu and settings section  */}
+          <section id="menusetting" className="flex flex-col justify-center items-center space-y-12">
+            {/* Menu System */}
+            <div className="flex flex-col justify-center items-center space-y-7 py-5 px-3">
+              {/* /* Menu items 1 */ }
+              <div className="flex">
+                {/* //menu icon  */}
+                <div>icon</div>
+                {/* //menu name */}
+                <div>name</div>
+              </div>
+            </div>
+
+            {/* Menu buttons */}
+            <div>Settings</div>
+
+          </section>
             </div>
         </div>
     </div>
