@@ -1,7 +1,8 @@
 
 // import Nav from './Nav'
 // import SlidingMenu from './SlidingMenu'
-import VerticleMenu from './VerticleMenu'
+// import VerticleMenu from './VerticleMenu'
+import DarkMode from './DarkMode'
 
 function App() {
   
@@ -10,7 +11,8 @@ function App() {
     <>
      {/* <Nav /> */}
      {/* <SlidingMenu /> */}
-     <VerticleMenu />
+     {/* <VerticleMenu /> */}
+     <DarkMode />
     </>
   )
 }

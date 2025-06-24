@@ -1,5 +1,5 @@
 
-
+import { CiHome } from "react-icons/ci";
 function VerticleMenu() {
   return (
     <div className="min-h-screen flex bg-blue-50">
@@ -7,7 +7,7 @@ function VerticleMenu() {
           backgroundImage:
             "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxPsjHlrOuIKAggXQ4cvMiTQDLdO_Bjxhs9w&s')",
         }} className="bg-cover">
-            <div className="md:w-64 bg-blue-300/60 min-h-screen backdrop-blur-lg ">
+            <div className="md:w-64 bg-red-300/60 min-h-screen backdrop-blur-lg ">
 
             {/* three colored dots */}
            <section id="animation" className="flex flex-col md:flex-row  space-y-4 md:space-y-0 md:space-x-4 items-center md:justify-start py-7 mx-5 justify-center ">
@@ -35,11 +35,35 @@ function VerticleMenu() {
             {/* Menu System */}
             <div className="flex flex-col justify-center items-center space-y-7 py-5 px-3">
               {/* /* Menu items 1 */ }
-              <div className="flex">
+              <div className="flex justify-center items-center md:justify-start space-x-4 text-cyan-50 group">
                 {/* //menu icon  */}
-                <div>icon</div>
+                <div className="group-hover:scale-110 duration-200"><CiHome className="w-6 h-6" /></div>
                 {/* //menu name */}
-                <div>name</div>
+                <a href="#" className="group-hover:tracking-widest group-hover:text-[18px] duration-200 hidden md:block">Home</a>
+              </div>
+              <div className="flex justify-center items-center md:justify-start space-x-4 text-cyan-50 group">
+                {/* //menu icon  */}
+                <div className="group-hover:scale-110 duration-200"><CiHome className="w-6 h-6" /></div>
+                {/* //menu name */}
+                <a href="#" className="group-hover:tracking-widest group-hover:text-[18px] duration-200 hidden md:block">Download</a>
+              </div>
+              <div className="flex justify-center items-center md:justify-start space-x-4 text-cyan-50 group">
+                {/* //menu icon  */}
+                <div className="group-hover:scale-110 duration-200"><CiHome className="w-6 h-6" /></div>
+                {/* //menu name */}
+                <a href="#" className="group-hover:tracking-widest group-hover:text-[18px] duration-200 hidden md:block">Discusion</a>
+              </div>
+              <div className="flex justify-center items-center md:justify-start space-x-4 text-cyan-50 group">
+                {/* //menu icon  */}
+                <div className="group-hover:scale-110 duration-200"><CiHome className="w-6 h-6" /></div>
+                {/* //menu name */}
+                <a href="#" className="group-hover:tracking-widest group-hover:text-[18px] duration-200 hidden md:block">Contact Us</a>
+              </div>
+              <div className="flex justify-center items-center md:justify-start space-x-4 text-cyan-50 group">
+                {/* //menu icon  */}
+                <div className="group-hover:scale-110 duration-200"><CiHome className="w-6 h-6" /></div>
+                {/* //menu name */}
+                <a href="#" className="group-hover:tracking-widest group-hover:text-[18px] duration-200 hidden md:block">Home</a>
               </div>
             </div>
 
