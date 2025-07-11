@@ -41,7 +41,7 @@ function Accordion() {
                 <h3 className="font-bold">{data.question}</h3>
                 <div className="group-hover:bg-gray-500 group-hover:rounded-full">
                   <svg
-                    className={`w-6 h-6 text-gray-800 dark:text-white transition-transform duration-300 ${show === i ? "scale-y-[-1]" : "scale-y-100"}`}
+                    className={`w-6 h-6 text-gray-800 dark:text-white transition-transform duration-300 ${show === i ? "-rotate-180" : ""}`}
                     aria-hidden="true"
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
