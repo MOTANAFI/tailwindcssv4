@@ -2,7 +2,10 @@
 // import Nav from './Nav'
 // import SlidingMenu from './SlidingMenu'
 // import VerticleMenu from './VerticleMenu'
-import DarkMode from './DarkMode'
+// import DarkMode from './DarkMode'
+import Accordion from "./components/accordion"
+
+
 
 function App() {
   
@@ -12,7 +15,8 @@ function App() {
      {/* <Nav /> */}
      {/* <SlidingMenu /> */}
      {/* <VerticleMenu /> */}
-     <DarkMode />
+     {/* <DarkMode /> */}
+     <Accordion />
     </>
   )
 }
