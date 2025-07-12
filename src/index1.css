@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer utilities {
+  .centerhv {
+    @apply flex items-center justify-center min-h-screen;
+  }
+
+  @layer base {
+    
+    body {
+      /* @apply bg-radial from-indigo-700 via-purple-500 to-blue-900; */
+      /* @apply bg-linear-120 from-indigo-700 via-purple-500 to-blue-900; */
+      /* background: linear-gradient(
+        120deg,
+        #221e54 20%,
+        #3730a3 20%,
+        #6324c7 35%,
+        #4c1daa 35%,
+        #402d95 55%,
+        #460d9b 55%,
+        #0e3885 85%
+      ); */
+      @apply min-h-screen;
+      background: radial-gradient(
+        at 10% 25%,
+        #1e1b4b 30%,
+        #3730a3 30%,
+        #5b21b6 65%,
+        #4c1d95 65%,
+        #402d95 85%
+      );
+      
+      background-size: 400% 400%;
+      animation: leftRightPath 25s ease infinite;
+    }
+    h1,
+    h2,
+    h3 {
+      @apply font-semibold text-gray-900;
+    }
+    h1 {
+      @apply text-4xl mb-2 md:text-5xl md:mb-3 lg:text-6xl;
+    }
+    h3 {
+      @apply text-2xl md:text-3xl;
+    }
+  }
+
+  @keyframes leftRightPath {
+    0%,
+    100% {
+      background-position: 0% 50%;
+    } /*Left center */
+    50% {
+      background-position: 100% 50%;
+    } /*Right center */
+  }
+  
+}
